@@ -1,0 +1,50 @@
+
+*{
+    margin: 0;
+}
+
+main {
+    background-color: #806D40;
+}
+h1 {
+    color: #ffb366;
+    font-size: 8em;
+    font-weight: 400;
+    font-family: "Keania One", sans-serif;
+    text-align: center;
+    margin: 200px;
+    border-radius: 17% 83% 13% 87% / 85% 17% 83% 15%;
+}
+
+.facebook {
+    width: 50px;
+    margin: auto
+}
+
+.presentation{
+    text-align: center;
+    font-size: 1.5em;
+    margin: 50px 50px;
+    color: #ffb366;
+}
+
+header,
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.gazebo-index {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.feelwood {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+}
