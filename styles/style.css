@@ -6,31 +6,10 @@
 main {
     background-color: #806D40;
 }
-h1 {
-    color: #ffb366;
-    font-size: 8em;
-    font-weight: 400;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    text-align: center;
-    margin: 80px;
-    border-radius: 17% 83% 13% 87% / 85% 17% 83% 15%;
-}
 
 .facebook {
     width: 50px;
     margin: auto
-}
-
-.presentation{
-    text-align: center;
-    font-size: 1.5em;
-    margin: 50px 50px;
-    color: #ffb366;
-    display: flex;
-    justify-content: center;
-    width: 80%;
 }
 
 header,
@@ -40,13 +19,6 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 20px;
-}
-
-.gazebo-index {
-    width: 50%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
 }
 
 .feelwood {
