@@ -1,28 +1,32 @@
 h1 {
-    color: #ffb366;
-    font-size: 8em;
-    font-weight: 400;
+    color: #bd8165;
+    font-size: 6em;
+    font-weight: 600;
     font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
     text-align: center;
-    margin: 80px;
-    border-radius: 17% 83% 13% 87% / 85% 17% 83% 15%;
+    margin: 20px;
+    text-shadow: 5px 5px 2px black;
 }
 
-.presentation{
-    text-align: center;
-    font-size: 1.5em;
-    margin: 50px 50px;
-    color: #ffb366;
+.presentation {
+    color: #bd8165;
     display: flex;
     justify-content: center;
-    width: 80%;
+    width: 100%;
+}
+
+.presentation p {
+    width: 50%;
+    font-size: 1.5em;
+    color: #d3af97;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .gazebo-index {
     width: 50%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    border: 2px solid black;
 }
