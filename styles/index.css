@@ -11,20 +11,29 @@ h1 {
 .presentation {
     color: #bd8165;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     width: 100%;
 }
 
+main div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: top;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 .presentation p {
-    width: 50%;
     font-size: 1.5em;
     color: #d3af97;
-    margin-left: 50px;
-    margin-right: 50px;
+    width: 80%;
 }
 
 .gazebo-index {
-    width: 50%;
+    width: 100%;
     margin-right: 50px;
     margin-bottom: 50px;
     border-radius: 5px;
@@ -33,15 +42,13 @@ h1 {
 
 .btn-index {
     display: inline-block;
-    width: auto;
-    margin: auto;
     padding: 10px 20px;
     font-size: 1.5em;
-    color: #516e6d;
     background-color: #bd8165;
     border-radius: 10px;
     text-align: center;
     margin-bottom: 50px;
+    margin-top: 50px;;
 }
 .btn-index:hover {
     text-decoration: none;
