@@ -30,3 +30,20 @@ h1 {
     border-radius: 5px;
     border: 2px solid black;
 }
+
+.btn-index {
+    display: inline-block;
+    width: auto;
+    margin: auto;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: #516e6d;
+    background-color: #bd8165;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.btn-index:hover {
+    text-decoration: none;
+    opacity: 0.7;
+}
