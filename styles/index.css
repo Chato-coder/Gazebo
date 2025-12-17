@@ -1,56 +1,54 @@
 h1 {
-    color: #bd8165;
+    color: #da5b21;
     font-size: 6em;
     font-weight: 600;
     font-family: "Montserrat", sans-serif;
     text-align: center;
-    margin: 20px;
+    margin-bottom: 50px;
     text-shadow: 5px 5px 2px black;
 }
 
-.presentation {
-    color: #bd8165;
+main {
+    background-image: url('../images/gazebo-presentation.jpg');
+    background-size: cover;
+}
+
+main section {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     align-items: center;
-    width: 100%;
-}
-
-main div {
-    display: flex;
-    flex-direction: row;
     justify-content: center;
-    align-items: top;
-    margin-top: 50px;
-    margin-bottom: 50px;
 }
 
-.presentation p {
-    font-size: 1.5em;
-    color: #d3af97;
-    width: 80%;
-}
-
-.gazebo-index {
-    width: 100%;
-    margin-right: 50px;
-    margin-bottom: 50px;
-    border-radius: 5px;
-    border: 2px solid black;
+section p {
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    width: 45%;
+    font-size: 1.8em;
+    text-align: justify center;
+    margin-top: 60px;
 }
 
 .btn-index {
     display: inline-block;
+    justify-content: end;
     padding: 10px 20px;
     font-size: 1.5em;
-    background-color: #bd8165;
-    border-radius: 10px;
+    color: white;
+    background-color: #da5b21;
+    background-position: cover;
+    border-radius: 15px 0 15px 0;
     text-align: center;
     margin-bottom: 50px;
-    margin-top: 50px;;
+    margin-top: 50px;
+    margin-right: 50px;
+    align-self: end;
+    box-shadow: 5px 5px 5px black;
 }
 .btn-index:hover {
     text-decoration: none;
-    opacity: 0.7;
+    box-shadow: 10px 10px 10px black;
 }
+ .btn-index:active {
+    box-shadow: none;
+ }
