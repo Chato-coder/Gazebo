@@ -11,6 +11,8 @@ h1 {
 main {
     background-image: url('../images/gazebo-presentation.jpg');
     background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
 }
 
 main section {
